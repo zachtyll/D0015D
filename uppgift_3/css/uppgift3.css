@@ -5,29 +5,30 @@ body {
    font-family: Candara, Verdana, sans-serif;
    font-size: 1.2em;
 }
-/* Det här är en kommentar */
+/* Gör tabeller synbart olika. */
 .tabell1 {
    background-color: #ffcccc;
 }
 .tabell2 {
    background-color: #ffcc99;
 }
-/* Det här är en kommentar */
+/* Unik ID för källhänvisningar. */
 #source {
    color: #009900;
    text-align: right;
    font-size: small;
 }
-/* Det här är en kommentar */
+/* För markering av footer. */
 .foot {
    background-color: black;
    color: white;
 }
-/* Det här är en kommentar */
+/* Typsnittet för headers 1-6. */
 h1, h2, h3, h4, h5, h6 {
    font-family: Arial, Helvetica, sans-serif;
 }
-/* Det här är en kommentar */
+/* Inrutar tabuleringar, ger table headers en understykning,
+   vänsterjusterar texten och skapar lite utrymme mellan raderna. */
 table {
    border: 1px solid black;
 }
@@ -40,12 +41,12 @@ td {
    padding: 5px;
    text-align: left;
 }
-/* Det här är en kommentar */
+/* Vänsterjusterar rubriker och ger dem fetstil.*/
 caption {
    text-align: left;
    font-weight: bold;
 }
-/* Det här är en kommentar */
+/* Länkar blir lila när muspekaren hovrar över länktext. */
 a:hover {
    color: purple;
  }
