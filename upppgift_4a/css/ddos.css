@@ -1,11 +1,13 @@
 
+/* A class for pushing elements to end of flexboxes. */
 .push {
     margin-left: auto;
 }
 
 section {
+    display: flex;
     background-color: #00ff37;
-    float: left;
+    flex-direction: column;
     margin: 0 1.5%;
     width: 63%;
 }
@@ -21,16 +23,21 @@ footer {
     background-color: #252525;
 }
 
+/* Defines box-row for action buttons in banner. */
 .flex-row-actions {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+
 }
 
+/* Defines box-row for logo-picture in banner. */
 .flex-row-logo {
     display: flex;
     align-items: flex-start;
 }
+
+/* Defines main section and aside content space. */
 
 /* Add a black background color to the top navigation */
 .banner{
