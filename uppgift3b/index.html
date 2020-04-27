@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+		<title>Uppgift 3b D0015D</title>
+	</head>
+<body>
+    <form action="http://staff.www.ltu.se/~susfah/VT19/parse_form.php" method="POST">
+        Ditt namn:<br>
+            <input type="text" name="förnamn" value=""><br>
+        Telefon:<br>
+            <input type="text" name="telefon" value=""><br>
+        Prioritet:
+            <select id="prioritet" name="prioritet">
+                <option value="1">Låg</option>
+                <option value="2">Normal</option>
+                <option value="3">Hög</option>
+            </select><br>
+        Tilldela till ort:<br>
+            <input type="radio" id="Göteborg" name="ort" value="gbg">
+                <label for="Göteborg">Göteborg</label><br>
+            <input type="radio" id="Stockholm" name="ort" value="sthlm">
+                <label for="Stockholm">Stockholm</label><br>
+            <input type="radio" id="Umeå" name="ort" value="ume">
+                <label for="Umeå">Umeå</label><br>
+            <input type="radio" id="Luleå" name="ort" value="lule">
+                <label for="Luleå">Luleå</label><br>
+        Kategori:<br>
+        <select id="kategori" name="kategori">
+            <option value="fakt">Fakturering</option>
+            <option value="net">Internet</option>
+            <option value="tel">Telefoni</option>
+            <option value="epost">E-post</option>
+        </select><br>
+        Rubrik:<br>
+            <input type="text" name="rubrik" value=""><br>
+        Beskrivning<br>
+            <textarea name="beskrivning" rows="10" cols="30"></textarea><br>
+        <input type="submit" name="skicka" value="Submit">
+        <input type="reset" value="Reset">
+ </form> 
+</body>
+</html>
