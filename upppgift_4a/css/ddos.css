@@ -16,12 +16,10 @@ body {
 
 section {
     background-color: #1d1d1d;
-    margin-right: 10%;
 }
 
 aside {
     background-color: #1d1d1d;
-    margin-right: 1.5%;
 }
 
 footer {
@@ -43,7 +41,7 @@ footer {
   background-color: #FFCC11;
 }
 
-/* Cards used to present classes. */
+/* Cards used to present info in an interesting way. */
 .card {
   border-top-color: #FFCC11;
   border-top-style: solid;
@@ -55,10 +53,12 @@ footer {
   width: 33%;
 }
 
+/* Hover results in illusion of lifting card. */
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+/* Style card content */
 .card-content {
   font-family: Consolas,monaco,monospace;
   display: flex;
