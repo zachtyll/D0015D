@@ -164,26 +164,25 @@ footer {
 /* Slideshow container */
 .slideshow-container {
   display: flex;
+  align-content: center;
   background-color: #323232;
   position: relative;
+  height: 500px;
   margin: auto;
 }
 
 /* Hide the images by default */
-.mySlides {
+.Slides {
   display: flex;
   align-self: center;
   display: none;
   border-color: red;
   border-style: solid;
   object-fit: contain;
-
 }
 
 /* Next & previous buttons */
 .prev, .next {
-  border-color: #f10000;
-  border-style: solid;
   cursor: pointer;
   position: absolute;
   width: auto;
@@ -199,7 +198,6 @@ footer {
 
 /* Position the "next button" to the right */
 .next {
-  border-style: solid;
   right: 0;
   border-radius: 3px 0 0 3px;
 }
@@ -230,6 +228,7 @@ footer {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+  position: absolute;
   transition: background-color 0.6s ease;
 }
 
