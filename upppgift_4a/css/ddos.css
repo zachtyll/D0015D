@@ -172,7 +172,7 @@ footer {
 }
 
 /* Hide the images by default */
-.Slides {
+.slides {
   display: flex;
   align-self: center;
   display: none;
