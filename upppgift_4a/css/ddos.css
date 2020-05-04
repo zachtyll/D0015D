@@ -113,6 +113,9 @@ footer {
 .flex-row-mainpage {
     display: flex;
     align-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin: auto;
 
 }
 /* Add a black-ish background color to the top navigation */
