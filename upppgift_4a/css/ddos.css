@@ -106,7 +106,7 @@ footer {
   
 /* Style the links inside the navigation bar */
 .banner a {
-    font-family: Consolas,monaco,monospace;
+    font-family: Consolas, monaco, monospace;
     float: left;
     display: block;
     color: #f2f2f2;
@@ -137,8 +137,7 @@ footer {
 @media screen and (max-width: 600px) {
     .banner a:not(:first-child) {display: none;}
     .banner a.icon {
-        float: right;
-        display: block;
+        display: flex;
     }
 }
   
@@ -151,8 +150,7 @@ footer {
         top: 0;
     }
     .banner.responsive a {
-        float: none;
-        display: block;
+        display: flex;
         text-align: left;
     }
 }
@@ -174,6 +172,8 @@ footer {
   display: none;
   border-color: red;
   border-style: solid;
+  object-fit: contain;
+
 }
 
 /* Next & previous buttons */
@@ -204,18 +204,6 @@ footer {
 .prev:hover, .next:hover {
   border-style: solid;
   background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  border-style: solid;
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
 }
 
 /* Number text (1/3 etc) */
