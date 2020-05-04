@@ -162,8 +162,6 @@ footer {
 /* Slideshow container */
 .slideshow-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #323232;
   position: relative;
   margin: auto;
@@ -171,7 +169,11 @@ footer {
 
 /* Hide the images by default */
 .mySlides {
+  display: flex;
+  align-self: center;
   display: none;
+  border-color: red;
+  border-style: solid;
 }
 
 /* Next & previous buttons */
@@ -180,10 +182,9 @@ footer {
   border-style: solid;
   cursor: pointer;
   position: absolute;
-  top: 50%;
   width: auto;
-  margin-top: -22px;
-  padding: 16px;
+  margin-top: 10%;
+  padding: 1.5%;
   color: white;
   font-weight: bold;
   font-size: 18px;
