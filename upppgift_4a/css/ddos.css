@@ -107,7 +107,7 @@ footer {
 .banner a {
     font-family: Consolas, monaco, monospace;
     float: left;
-    display: block;
+    display: flex;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -123,7 +123,8 @@ footer {
   
 /* Add an active class to highlight the current page */
 .banner a.active {
-    background-color: #FFCC11;
+    border-color: #FFCC11;
+    border-style: solid;
     color: white;
 }
   
