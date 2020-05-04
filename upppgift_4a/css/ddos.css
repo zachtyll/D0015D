@@ -162,12 +162,11 @@ footer {
 /* Slideshow container */
 .slideshow-container {
   display: flex;
+  align-items: center;
   justify-content: center;
   background-color: #323232;
-  max-width: 50%;
   position: relative;
   margin: auto;
-  object-fit: cover;
 }
 
 /* Hide the images by default */
@@ -262,5 +261,3 @@ footer {
   from {opacity: .4} 
   to {opacity: 1}
 }
-
-/* Copied Slideshow test */
