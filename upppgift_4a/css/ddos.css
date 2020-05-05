@@ -18,15 +18,18 @@ section {
     background-color: #1d1d1d;
     font-family: Consolas,monaco,monospace;
     color: white;
-    margin: 1.5%;
+    margin: auto;
     max-width: 50%;
+    padding: 14px 16px;
 }
 
 aside {
-  font-family: Consolas,monaco,monospace;
   background-color: #1d1d1d;
+  border-style: solid #FFCC11;
+  font-family: Consolas,monaco,monospace;
   color: white;
-  margin: 1.5%;
+  margin: auto;
+  padding: 14px 16px;
 }
 
 .aside:before {
@@ -39,7 +42,10 @@ aside {
 }
 
 footer {
+  font-family: Consolas,monaco,monospace;
+  color: white;
   background-color: #1d1d1d;
+  margin: auto;
 }
 
 /* Cards used to present info in an interesting way. */
@@ -71,7 +77,6 @@ footer {
   font-family: Consolas,monaco,monospace;
   color: white;
   padding: 14px 16px;
-  font-weight: 500;
 }
 
 /* Style links inside cards*/
@@ -128,8 +133,6 @@ footer {
 .flex-row-mainpage {
     display: flex;
     align-content: space-between;
-    margin-left: 25%;
-    margin-right: 25%;
     margin: auto;
 
 }
