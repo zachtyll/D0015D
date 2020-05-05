@@ -16,6 +16,9 @@ body {
 
 section {
     background-color: #1d1d1d;
+    border-top-style: solid;
+    
+    border-top-color: #3b3a30;
     font-family: Consolas,monaco,monospace;
     color: white;
     margin: auto;
@@ -141,7 +144,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #0a1612;
+    background-color: #1d1d1d;
     overflow: hidden;
 }
   
@@ -220,7 +223,6 @@ footer {
   font-family: Consolas, monaco, monospace;
   color: #FFCC11;
   padding: 12px 16px;
-  border-style: dashed;
 }
 
 /* Next & previous buttons */
